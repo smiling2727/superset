@@ -87,6 +87,8 @@ AUTH_ROLE_PUBLIC = 'Public'
 AUTH_USER_REGISTRATION = True
 # The default user self registration role
 AUTH_USER_REGISTRATION_ROLE = "Gamma"
+# Flask-WTF flag for CSRF
+WTF_CSRF_ENABLED = False
 
 # ---------------------------------------------------
 # Feature flags
