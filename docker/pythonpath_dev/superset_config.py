@@ -86,7 +86,7 @@ AUTH_ROLE_PUBLIC = 'Public'
 # Will allow user self registration
 AUTH_USER_REGISTRATION = True
 # The default user self registration role
-AUTH_USER_REGISTRATION_ROLE = "Gamma"
+AUTH_USER_REGISTRATION_ROLE = 'Public'
 # Flask-WTF flag for CSRF
 WTF_CSRF_ENABLED = False
 
@@ -204,7 +204,7 @@ DEFAULT_FEATURE_FLAGS: Dict[str, bool] = {
 }
 
 # Embedded config options
-GUEST_ROLE_NAME = "Gamma"
+GUEST_ROLE_NAME = "Viewer"
 
 class CeleryConfig(object):
     broker_url = f"redis://{REDIS_HOST}:{REDIS_PORT}/{REDIS_CELERY_DB}"
